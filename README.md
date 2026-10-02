@@ -1,16 +1,96 @@
-# React + Vite
+# ✅ Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive task management app built with React. Create, edit, delete, search, and track your tasks through a clean and easy-to-use interface.
 
-Currently, two official plugins are available:
+![Task Manager Screenshot](./public/screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Live Demo
 
-## React Compiler
+https://melvin-12143031.github.io/task-manager/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+* ➕ Add new tasks
+* ✏️ Edit existing tasks
+* 🗑️ Delete tasks with confirmation
+* 🔍 Search tasks
+* 📊 Track task progress
+* ✅ Mark tasks as completed
+* 📱 Responsive design
+* 🧩 Reusable React components
+* 📄 Task data stored in JSON
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Built With
+
+* React
+* JavaScript
+* CSS
+* Vite
+* JSON
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── DeleteDialog.jsx
+│   ├── EditDialog.jsx
+│   ├── SearchBar.jsx
+│   ├── Task.jsx
+│   ├── TaskCounter.jsx
+│   └── TaskInput.jsx
+├── data/
+│   └── tasks.json
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Melvin-12143031/task-manager.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd task-manager
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Then open the local URL provided by Vite.
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+## 🌐 Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+## 📌 Project Purpose
+
+This project was built as part of my React learning journey to practice component-based development, state management, forms, dialogs, searching, and reusable UI components.
+
+---
+
+Made with React ⚛️
